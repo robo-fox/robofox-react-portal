@@ -1,6 +1,6 @@
 {
   "name": "robofox-react-portal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a top level component from anywhere in your tree",
   "main": "lib/index.js",
   "scripts": {
