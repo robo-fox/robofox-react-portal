@@ -1,0 +1,45 @@
+{
+  "name": "robofox-react-portal",
+  "version": "1.0.0",
+  "description": "Creates a top level component from anywhere in your tree",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robo-fox/robofox-react-portal.git"
+  },
+  "keywords": [
+    "portal",
+    "modal",
+    "react",
+    "react.js",
+    "tree",
+    "popup"
+  ],
+  "author": {
+    "name": "Harry Fox",
+    "email": "hxfox1@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robo-fox/robofox-react-portal/issues"
+  },
+  "homepage": "https://github.com/robo-fox/robofox-react-portal#readme",
+  "peerDependencies": {
+    "react": "^16.3.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  },
+  "publishConfig": {
+    "@hxf31891:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
